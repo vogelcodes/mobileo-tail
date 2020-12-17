@@ -27,7 +27,7 @@ export default function IndexPage() {
         <li className="" >Marcenaria personalizada</li>
             <li className="" >Madeiras maciças, MDF e compensado</li>
             <li><a className="flex justify-center items-center gap-1 " href="https://wa.me/5521981697373?text=Oi%2C+tudo+bem%3F+Eu+gostaria+de+fazer+um+or%C3%A7amento.">
-              <ImWhatsapp /> (21)98169-7373
+              <ImWhatsapp /> (21) 98169-7373
               </a></li>
 
         </ul>
