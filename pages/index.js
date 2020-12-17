@@ -1,14 +1,18 @@
 import Nav from '../components/nav'
+import Container from '../components/container'
+import Main from '../components/main'
+import Footer from '../components/footer'
+import Image from 'next/image'
 
 export default function IndexPage() {
   return (
-    <div>
+    <div className="container">
       <Nav />
-      <div className="py-20">
-        <h1 className="text-5xl text-center text-gray-700 dark:text-gray-100">
-          Next.js + Tailwind CSS 2.0
-        </h1>
-      </div>
+      <Container>
+      <Main/>
+      <Footer/>
+        </Container>
+        
     </div>
   )
 }
