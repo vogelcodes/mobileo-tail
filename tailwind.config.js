@@ -5,7 +5,14 @@ module.exports = {
     extend: {
       colors: {
         'accent-1': '#333',
-        'brown': '#010101'
+        'brown': '#6F2D01',
+        'green': '#648767ff',
+        'yellow': '#ead94cff',
+        'bg': '#343633ff',
+        'red': '#d5573bff',
+        'blue': '#777da7ff',
+        
+
       },
     },
   },
