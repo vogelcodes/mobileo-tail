@@ -22,13 +22,13 @@ export default function IndexPage() {
             </nav>
             <main className="flex flex-1 flex-col justify-around items-center bg-bg">
                   <div className="">
-                    <img className="w-96"src="https://instagram.fsdu5-1.fna.fbcdn.net/v/t51.2885-15/e35/121235323_1034363926991662_8717067879844545786_n.jpg?_nc_ht=instagram.fsdu5-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=ynto3FwqmcAAX8OXyEG&tp=1&oh=fd4cfbc929222b4a1a73b120f4d4b061&oe=6000AB9A"/>
+                    <img className="w-96 rounded-lg"src="https://instagram.fsdu5-1.fna.fbcdn.net/v/t51.2885-15/e35/121235323_1034363926991662_8717067879844545786_n.jpg?_nc_ht=instagram.fsdu5-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=ynto3FwqmcAAX8OXyEG&tp=1&oh=fd4cfbc929222b4a1a73b120f4d4b061&oe=6000AB9A"/>
                   </div>
                   <ul className="flex flex-col gap-4 text-xl text-center text-yellow-900">
         <li className="" >Marcenaria personalizada</li>
             <li className="" >Madeiras maciças, MDF e compensado</li>
-            <li><a className="flex justify-center items-center gap-1 " href="https://wa.me/5521981697373?text=Oi%2C+tudo+bem%3F+Eu+gostaria+de+fazer+um+or%C3%A7amento.">
-              <ImWhatsapp /> (21) 98169-7373
+            <li><a className="text-sm underline flex justify-center items-center gap-1 " href="https://wa.me/5521981697373?text=Oi%2C+tudo+bem%3F+Eu+gostaria+de+fazer+um+or%C3%A7amento.">
+              <ImWhatsapp /> (21) 98169-7373<br/>Pedir orçamento
               </a></li>
 
         </ul>
