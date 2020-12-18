@@ -11,12 +11,12 @@ export default function IndexPage() {
   return <div>
             <div className="min-h-screen text-yellow bg-bg flex flex-col">
 
-            <nav className="flex w-full h-12 md:h-32 md:px-36 bg-green items-center justify-between px-1">
-              <div className="text-md md:text-4xl bg- h-8 md:h-16 md:pt-2 bg-bg px-3 border-brown border-2 rounded-lg">
+            <nav className="flex w-full h-12 lg:h-32 md:px-36 bg-green items-center justify-between px-4">
+              <div className="text-md lg:text-4xl bg- h-8 lg:h-16 lg:pt-2 bg-bg px-3 border-brown border-2 rounded-lg">
                 mobileo.mobi</div>
               <ul className="flex gap-1 md:gap-5 h-8 items-center ">
                 {links.map(item=>
-                <li key={item.label}className=" border-gray-400 bg-bg border-brown border-2 rounded-lg px-2"><a className="flex" href={item.href}><div className="pt-1 pr-1">{item.icon}</div><div className="">{item.label}</div></a></li>
+                <li key={item.label}className=" border-gray-400 bg-bg border-brown border-2 rounded-lg px-2"><a className="flex" href={item.href}><div className="p-1">{item.icon}</div><div className="hidden sm:block">{item.label}</div></a></li>
                 )}
               </ul>
             </nav>
