@@ -9,28 +9,31 @@ export default function IndexPage() {
   ]
   
   return <div>
-            <div className="min-h-screen text-yellow bg-bg flex flex-col">
+            <div className="min-h-screen text-gray-200 bg-bg flex flex-col">
 
             <nav className="flex w-full h-12 lg:h-32 md:px-36 bg-green items-center justify-between px-4">
-              <div className="text-md lg:text-4xl bg- h-8 lg:h-16 lg:pt-2 bg-bg px-3 border-brown border-2 rounded-lg">
-                mobileo.mobi</div>
+              <div className="text-md lg:text-4xl h-8 lg:h-16 lg:pt-2 button-bg px-3 border-brown border-2 rounded-lg">
+                <div className="shadow-md">
+                  
+                  mobileo.mobi</div>
+                  </div>
               <ul className="flex gap-1 md:gap-5 h-8 items-center ">
                 {links.map(item=>
-                <li key={item.label}className=" border-gray-400 bg-bg border-brown border-2 rounded-lg px-2"><a className="flex" href={item.href}><div className="p-1">{item.icon}</div><div className="hidden sm:block">{item.label}</div></a></li>
+                <li key={item.label}className="button-bg border-gray-400 border-brown border-2 rounded-lg px-2"><a className="flex" href={item.href}><div className="p-1">{item.icon}</div><div className="hidden sm:block">{item.label}</div></a></li>
                 )}
               </ul>
             </nav>
-            <main className="flex flex-1 flex-col justify-around items-center bg-bg">
-                  <div className="pt-2 grid md:grid-cols-2 gap-3 items-center">
-                    <img className="w-96 rounded-lg"src="https://instagram.fsdu5-1.fna.fbcdn.net/v/t51.2885-15/e35/121235323_1034363926991662_8717067879844545786_n.jpg?_nc_ht=instagram.fsdu5-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=ynto3FwqmcAAX8OXyEG&tp=1&oh=fd4cfbc929222b4a1a73b120f4d4b061&oe=6000AB9A"/>
-                    <img className="w-96 rounded-lg"src="https://instagram.fsdu5-1.fna.fbcdn.net/v/t51.2885-15/e35/131011939_1293549251030098_8448164086003615459_n.jpg?_nc_ht=instagram.fsdu5-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=Uh1AWuTSEEgAX_TsMvP&tp=1&oh=2f3712c5de4191e928ed163f4a83b448&oe=6007C57E"/>
-                    <img className="w-96 rounded-lg"src="https://instagram.fsdu5-1.fna.fbcdn.net/v/t51.2885-15/e35/130556329_381807462908232_8986100931247910605_n.jpg?_nc_ht=instagram.fsdu5-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=AxPG_j5o-08AX8HYII2&tp=1&oh=270c0761b4246704ddfab82de1997dee&oe=60079D75"/>
-                    <img className="w-96 rounded-lg"src="https://instagram.fsdu5-1.fna.fbcdn.net/v/t51.2885-15/e35/130968278_1096001024163994_7316578535084707412_n.jpg?_nc_ht=instagram.fsdu5-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=ypH_XQmzBZIAX_ZTrZH&tp=1&oh=3738516fcd0b399d4c8cd2e852424293&oe=600530D8"/>
+            <main className="flex flex-1 flex-col button-bg justify-around items-center bg-bg">
+                  <div className="pt-6 pt-2 grid md:grid-cols-2 gap-3 items-center">
+                    <img className="w-96 rounded-lg shadow-lg"src="https://instagram.fsdu5-1.fna.fbcdn.net/v/t51.2885-15/e35/121235323_1034363926991662_8717067879844545786_n.jpg?_nc_ht=instagram.fsdu5-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=ynto3FwqmcAAX8OXyEG&tp=1&oh=fd4cfbc929222b4a1a73b120f4d4b061&oe=6000AB9A"/>
+                    <img className="w-96 rounded-lg shadow-lg"src="https://instagram.fsdu5-1.fna.fbcdn.net/v/t51.2885-15/e35/131011939_1293549251030098_8448164086003615459_n.jpg?_nc_ht=instagram.fsdu5-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=Uh1AWuTSEEgAX_TsMvP&tp=1&oh=2f3712c5de4191e928ed163f4a83b448&oe=6007C57E"/>
+                    <img className="w-96 rounded-lg shadow-lg"src="https://instagram.fsdu5-1.fna.fbcdn.net/v/t51.2885-15/e35/130556329_381807462908232_8986100931247910605_n.jpg?_nc_ht=instagram.fsdu5-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=AxPG_j5o-08AX8HYII2&tp=1&oh=270c0761b4246704ddfab82de1997dee&oe=60079D75"/>
+                    <img className="w-96 rounded-lg shadow-lg"src="https://instagram.fsdu5-1.fna.fbcdn.net/v/t51.2885-15/e35/130968278_1096001024163994_7316578535084707412_n.jpg?_nc_ht=instagram.fsdu5-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=ypH_XQmzBZIAX_ZTrZH&tp=1&oh=3738516fcd0b399d4c8cd2e852424293&oe=600530D8"/>
                   </div>
-                  <ul className="flex flex-col gap-4 text-xl text-center text-yellow-900">
-        <li className="" >Marcenaria personalizada</li>
-            <li className="" >Madeiras maciças, MDF e compensado</li>
-            <li><a className="text-sm underline flex justify-center items-center gap-1 " href="https://wa.me/5521981697373?text=Oi%2C+tudo+bem%3F+Eu+gostaria+de+fazer+um+or%C3%A7amento.">
+                  <ul className="flex flex-col py-4 gap-4 text-xl text-center text-yellow-900">
+        <li className="shadow-lg" >Marcenaria personalizada</li>
+            <li className="shadow-lg" >Madeiras maciças, MDF e compensado</li>
+            <li className="shadow-lg"><a className="text-sm underline flex justify-center items-center gap-1 " href="https://wa.me/5521981697373?text=Oi%2C+tudo+bem%3F+Eu+gostaria+de+fazer+um+or%C3%A7amento.">
               <ImWhatsapp /> (21) 98169-7373<br/>Solicitar orçamento
               </a></li>
 
