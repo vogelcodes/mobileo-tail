@@ -9,6 +9,10 @@ export default function IndexPage() {
   ]
   
   return <div>
+      <Head>
+        <title>Mobileo.mobi | Marcenaria Personalizada</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
             <div className="min-h-screen text-gray-200 bg-bg flex flex-col">
 
             <nav className="flex w-full h-12 lg:h-32 md:px-36 bg-green items-center justify-between px-4">
